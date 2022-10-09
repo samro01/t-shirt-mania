@@ -3,7 +3,7 @@ import './App.css';
 import Grandpa from './Components/Grandpa/Grandpa';
 import Home from './Components/Home/Home';
 import Orders from './Components/Orders/Orders';
-import Main from './layout/Main';
+import Main from './layouts/Main';
 
 function App() {
   const router = createBrowserRouter([
@@ -19,10 +19,10 @@ function App() {
         {
           path:'/orders',
           element:<Orders></Orders>, 
-        }
+        },
         {
           path:'/grandpa',
-          element:<Grandpa></Grandpa>, 
+          element:<Grandpa></Grandpa> 
         }
       ]
     }
